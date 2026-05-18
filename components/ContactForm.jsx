@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 
-const fallbackFormUrl = 'https://form.jotform.com/YOUR_JOTFORM_FORM_ID';
+const fallbackFormUrl = 'https://form.jotform.com/261376826559067';
 
 export default function ContactForm() {
   const configuredFormUrl = process.env.NEXT_PUBLIC_JOTFORM_FORM_URL;
